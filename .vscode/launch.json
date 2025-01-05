@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            
+            {
+                "type": "java",
+                "name": "Current File",
+                "request": "launch",
+                "mainClass": "${file}",
+                "classPaths": [
+                    "C:/Users/Baivab Bhusal/OneDrive/Desktop/4th Sem project/mysql-connector-j-9.1.0.jar"
+                ]
+            },
+            {
+                "type": "java",
+                "name": "Admin",
+                "request": "launch",
+                "mainClass": "Admin",
+                "projectName": "4th Sem project_aae3306a",
+                "classPaths": [
+                    "C:/Users/Baivab Bhusal/OneDrive/Desktop/4th Sem project/mysql-connector-j-9.1.0.jar"
+                ]
+            },
+            {
+                "type": "java",
+                "name": "Database",
+                "request": "launch",
+                "mainClass": "Database",
+                "projectName": "4th Sem project_aae3306a",
+                "classPaths": [
+                    "C:/Users/Baivab Bhusal/OneDrive/Desktop/4th Sem project/mysql-connector-j-9.1.0.jar"
+                ]
+            },
+            {
+                "type": "java",
+                "name": "Quiz",
+                "request": "launch",
+                "mainClass": "Quiz",
+                "projectName": "4th Sem project_aae3306a",
+                "classPaths": [
+                    "C:/Users/Baivab Bhusal/OneDrive/Desktop/4th Sem project/mysql-connector-j-9.1.0.jar"
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+header h1,header nav{
+    width:100vw;
+    height:20vh;
+    background-color: black;
+    color: azure;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    margin:80px;
+    border:2px solid rgb(168, 176, 172);
+    border-radius: 10px;
+    padding:80px;
+    background-color: rgb(19, 18, 19);
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.boxes:hover{
+    background-color: aliceblue;
+    color: black;
+}
